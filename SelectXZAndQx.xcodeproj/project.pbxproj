@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7482239427BDEF36006D5B4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7482239327BDEF36006D5B4E /* AppDelegate.m */; };
-		7482239727BDEF36006D5B4E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7482239627BDEF36006D5B4E /* SceneDelegate.m */; };
 		7482239A27BDEF36006D5B4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7482239927BDEF36006D5B4E /* ViewController.m */; };
 		7482239D27BDEF36006D5B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7482239B27BDEF36006D5B4E /* Main.storyboard */; };
 		7482239F27BDEF39006D5B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7482239E27BDEF39006D5B4E /* Assets.xcassets */; };
@@ -17,6 +16,7 @@
 		748223AF27BDEF3A006D5B4E /* SelectXZAndQxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 748223AE27BDEF3A006D5B4E /* SelectXZAndQxTests.m */; };
 		748223B927BDEF3A006D5B4E /* SelectXZAndQxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 748223B827BDEF3A006D5B4E /* SelectXZAndQxUITests.m */; };
 		748223BB27BDEF3A006D5B4E /* SelectXZAndQxUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 748223BA27BDEF3A006D5B4E /* SelectXZAndQxUITestsLaunchTests.m */; };
+		ED62ED792223F6CDCEF7DF38 /* Pods_SelectXZAndQx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72E551EA3C68A085A8E27C3 /* Pods_SelectXZAndQx.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06E3A9E3AC4237F6B73217F4 /* Pods-SelectXZAndQx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelectXZAndQx.release.xcconfig"; path = "Target Support Files/Pods-SelectXZAndQx/Pods-SelectXZAndQx.release.xcconfig"; sourceTree = "<group>"; };
 		7482238F27BDEF36006D5B4E /* SelectXZAndQx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelectXZAndQx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7482239227BDEF36006D5B4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7482239327BDEF36006D5B4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7482239527BDEF36006D5B4E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		7482239627BDEF36006D5B4E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		7482239827BDEF36006D5B4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7482239927BDEF36006D5B4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7482239C27BDEF36006D5B4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +53,8 @@
 		748223B427BDEF3A006D5B4E /* SelectXZAndQxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelectXZAndQxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		748223B827BDEF3A006D5B4E /* SelectXZAndQxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectXZAndQxUITests.m; sourceTree = "<group>"; };
 		748223BA27BDEF3A006D5B4E /* SelectXZAndQxUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectXZAndQxUITestsLaunchTests.m; sourceTree = "<group>"; };
+		B72E551EA3C68A085A8E27C3 /* Pods_SelectXZAndQx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SelectXZAndQx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61594D4D5E92A59FC60A67E /* Pods-SelectXZAndQx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SelectXZAndQx.debug.xcconfig"; path = "Target Support Files/Pods-SelectXZAndQx/Pods-SelectXZAndQx.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED62ED792223F6CDCEF7DF38 /* Pods_SelectXZAndQx.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58892BFF64764B9D0D13FDF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B72E551EA3C68A085A8E27C3 /* Pods_SelectXZAndQx.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7482238627BDEF36006D5B4E = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,8 @@
 				748223AD27BDEF3A006D5B4E /* SelectXZAndQxTests */,
 				748223B727BDEF3A006D5B4E /* SelectXZAndQxUITests */,
 				7482239027BDEF36006D5B4E /* Products */,
+				8FD20E7F01502870D35607B0 /* Pods */,
+				58892BFF64764B9D0D13FDF7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,8 +118,6 @@
 			children = (
 				7482239227BDEF36006D5B4E /* AppDelegate.h */,
 				7482239327BDEF36006D5B4E /* AppDelegate.m */,
-				7482239527BDEF36006D5B4E /* SceneDelegate.h */,
-				7482239627BDEF36006D5B4E /* SceneDelegate.m */,
 				7482239827BDEF36006D5B4E /* ViewController.h */,
 				7482239927BDEF36006D5B4E /* ViewController.m */,
 				7482239B27BDEF36006D5B4E /* Main.storyboard */,
@@ -136,6 +146,16 @@
 			path = SelectXZAndQxUITests;
 			sourceTree = "<group>";
 		};
+		8FD20E7F01502870D35607B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E61594D4D5E92A59FC60A67E /* Pods-SelectXZAndQx.debug.xcconfig */,
+				06E3A9E3AC4237F6B73217F4 /* Pods-SelectXZAndQx.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 748223BE27BDEF3A006D5B4E /* Build configuration list for PBXNativeTarget "SelectXZAndQx" */;
 			buildPhases = (
+				97BC630DDC51287AAE56C470 /* [CP] Check Pods Manifest.lock */,
 				7482238B27BDEF36006D5B4E /* Sources */,
 				7482238C27BDEF36006D5B4E /* Frameworks */,
 				7482238D27BDEF36006D5B4E /* Resources */,
+				B1645980455E5A41DC612355 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +283,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		97BC630DDC51287AAE56C470 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SelectXZAndQx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1645980455E5A41DC612355 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelectXZAndQx/Pods-SelectXZAndQx-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SelectXZAndQx/Pods-SelectXZAndQx-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SelectXZAndQx/Pods-SelectXZAndQx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7482238B27BDEF36006D5B4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,7 +333,6 @@
 				7482239A27BDEF36006D5B4E /* ViewController.m in Sources */,
 				7482239427BDEF36006D5B4E /* AppDelegate.m in Sources */,
 				748223A527BDEF39006D5B4E /* main.m in Sources */,
-				7482239727BDEF36006D5B4E /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +502,7 @@
 		};
 		748223BF27BDEF3A006D5B4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E61594D4D5E92A59FC60A67E /* Pods-SelectXZAndQx.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +530,7 @@
 		};
 		748223C027BDEF3A006D5B4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E3A9E3AC4237F6B73217F4 /* Pods-SelectXZAndQx.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,0 +1,16 @@
+PODS:
+  - BEMCheckBox (1.4.1)
+
+DEPENDENCIES:
+  - BEMCheckBox
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - BEMCheckBox
+
+SPEC CHECKSUMS:
+  BEMCheckBox: 5ba6e37ade3d3657b36caecc35c8b75c6c2b1a4e
+
+PODFILE CHECKSUM: 851df72d6643eb01df83f7dfb5c39dac2707a05d
+
+COCOAPODS: 1.11.2
